@@ -16,5 +16,11 @@
     "url": "https://github.com/Dave-sei/ZPP/issues"
   },
   "homepage": "https://github.com/Dave-sei/ZPP#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
+  }
 }
