@@ -6,10 +6,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Import API routes
-const projectRoutes = require('./routes/projects');
-const taskRoutes = require('./routes/tasks');
-const userRoutes = require('./routes/users');
+// Import API routes from the correct 'route' (singular) directory
+const projectRoutes = require('./route/projects');
+const taskRoutes = require('./route/tasks');
+const userRoutes = require('./route/users');
 
 // Use API routes
 app.use('/api/projects', projectRoutes);
